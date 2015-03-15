@@ -22,16 +22,30 @@
     function onResume() {
         // TODO: This application has been reactivated. Restore application state here.
     };
-} )();
+})();
+
+var rotate_owl = 0;
 
 function party() {
-    $(owl)[0].src = "images/owl_with_hat.png";
+    $("#owl")[0].src = "images/owl_with_hat.png";
     $(party_label).context.innerText = "LETS PARTY!!";
-    $("#owl").rotate(5);
+
+    background();
+    owl();
+}
+
+function owl() {
+    rotate_owl++;
+    $("#owl").rotate(rotate_owl);
+
+    setTimeout(owl, 5);
+}
+
+function background() {
 
     document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
 
-    setTimeout(party, 300);
+    setTimeout(background, 300);
 }
 
 function sleep(milliseconds) {
