@@ -25,5 +25,16 @@
 } )();
 
 function party() {
+    $(owl)[0].src = "images/owl_with_hat.png";
+    $(party_label).context.innerText = "LETS PARTY!!";
+    $("#owl").rotate(5);
 
+    document.body.style.backgroundColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+
+    setTimeout(party, 300);
+}
+
+function sleep(milliseconds) {
+    var e = new Date().getTime() + milliseconds;
+    while (new Date().getTime() <= e) { }
 }
