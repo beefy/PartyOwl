@@ -1,0 +1,30 @@
+﻿body, html {
+    height:100%;
+    width:100%;
+    margin:0px;
+}
+
+h1 {
+    font-family: 'lucida sans unicode', 'lucida grande', sans-serif;
+    font-size: 35px;
+}
+
+#owl {
+    height:85%;
+    width:100%;
+}
+
+#party_btn {
+    height:10%;
+    width:100%;
+    background-color:#AA91E3;
+    text-align:center;
+    margin-bottom:5%;
+}
+
+#party_label {
+    margin:0px;
+    vertical-align:middle;
+    padding-top: 1.75%;
+}
+

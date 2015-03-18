@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PartyOwl</title>
+
+    <!-- PartyOwl references -->
+    <link href="css/index.css" rel="stylesheet" />
+
+    <!-- JQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="http://jqueryrotate.googlecode.com/svn/trunk/jQueryRotate.js"></script>
+
+    <!-- If you do not want any permissions to be added to your app, add the
+    following tag to your config.xml; you will still have the INTERNET
+    permission on your app, which PhoneGap requires. -->
+    <preference name="permissions" value="none" />
+    <icon src="images/logo.png" />
+
+</head>
+<body onclick ="party()">
+
+    <!-- Cordova reference, this is added to your app when it's built. -->
+    <script src="cordova.js"></script>
+    <script src="scripts/platformOverrides.js"></script>
+
+    <script src="scripts/index.js"></script>
+
+    <div id="party_btn">
+        <h1 id="party_label">PARTY TYME?!?</h1>
+    </div>
+    <img id="owl" src="images/owl_no_hat.png" />
+
+</body>
+</html>
