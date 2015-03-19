@@ -81,9 +81,9 @@ Global
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Distribution|Windows-x86.ActiveCfg = Distribution|Windows-x86
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Distribution|Windows-x86.Build.0 = Distribution|Windows-x86
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Distribution|Windows-x86.Deploy.0 = Distribution|Windows-x86
-		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.ActiveCfg = Release|Android
-		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.Build.0 = Release|Android
-		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.Deploy.0 = Release|Android
+		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.ActiveCfg = Release|iOS
+		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.Build.0 = Release|iOS
+		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|Android.Deploy.0 = Release|iOS
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|iOS.ActiveCfg = Release|iOS
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|iOS.Build.0 = Release|iOS
 		{E371B07E-ADC2-4D5C-84FC-0832F05DBB65}.Release|iOS.Deploy.0 = Release|iOS
